@@ -1,0 +1,191 @@
+body{
+    height: 100vh;
+    display: flex;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: bisque;
+  }
+  @font-face {
+    font-family: my-font;
+    src: url(/home/majku/repos/Sign-Up-Form/Sign-Up-Form/fonts/Prompt/Prompt-Light.ttf);
+  }
+  @font-face {
+    font-family: my-font-bold;
+    src: url(/home/majku/repos/Sign-Up-Form/Sign-Up-Form/fonts/Prompt/Prompt-Regular.ttf);
+  }
+
+  
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+  .containerone{
+    background-image: url('aboodi-vesakaran.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+}
+
+.middle{
+    font-family: my-font, sans-serif;
+    font-size: 2rem;
+    padding: 2rem;
+    background-color: azure;
+    opacity: 0.75 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width:100%;
+}
+
+.containertwo{
+    background-color: bisque;
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 40px ;
+    font-size: 1.25rem;
+    
+}
+.title{
+    padding-bottom: 20px;
+    font-family: my-font-bold, sans-serif;    
+   
+    
+}
+.form{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1rem;
+    gap: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 35px 40px;
+    margin: 0 -40px;
+    box-shadow: rgba(0, 0, 0.3, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+lab{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    
+}
+form{
+    display: flex;
+    gap:15px;
+    flex-wrap: wrap;
+    padding: 25px 0;
+    
+    
+}
+
+input{
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 4px;
+    font-size: 20px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+input:focus{
+    box-shadow: rgba(0, 0, 0.3, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+input:valid{
+    border-color: green;
+}
+input:invalid{
+    border-color: red;
+}
+
+
+.buttonsec {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 30px 0;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 1rem;
+}
+
+.middleHeader{
+    display: inline-flex;
+    display: flex;
+    flex-direction: column;
+    
+}
+button{
+    background-color: rgb(78, 98, 143);
+   
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family: my-font-bold, sans-serif;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+a{
+    color: rgb(236, 122, 141);
+    text-decoration: none;
+
+}
