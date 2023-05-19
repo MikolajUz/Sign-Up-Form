@@ -7,6 +7,7 @@ body, html {
     height: 100%;
     margin: 0;
     background-color: bisque;
+    min-width: 830px;;
   }
   @font-face {
     font-family: my-font;
@@ -69,9 +70,7 @@ table {
 }
 
 
-
-
-  .containerone{
+.containerone{
     background-image: url('aboodi-vesakaran.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -80,6 +79,7 @@ table {
     justify-content: center;
     align-items: center;
     width: 33%;
+    position: relative;
 }
 
 .middle{
@@ -91,10 +91,18 @@ table {
     display: flex;
     justify-content: center;
     align-items: center;
-    
     width:100%;
 }
 
+footer{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-family: my-font-bold;
+    background-color: white;
+    opacity: 0.75;
+
+}
 .containertwo{
     background-color: bisque;
     display: flex;   
@@ -155,6 +163,7 @@ input:valid{
 }
 input:invalid{
     border-color: red;
+    
 }
 
 
@@ -189,3 +198,10 @@ a{
     text-decoration: none;
 
 }
+.warn{
+    color: red;
+    font-size: 0.8rem;
+    font-weight: bold;
+    white-space: pre-line;
+}
+

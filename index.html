@@ -11,7 +11,7 @@
 <body>
     <div class="containerone">
         <div class="middle">SIGN-UP FOR RELAX</div>
-
+        <footer>PHOTO BY ABOODI-VESAKARAN</footer>
     </div>
     <div class="containertwo">
         <div class="title">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.
@@ -20,35 +20,41 @@
         </div>
         <div class="form">
             <div class="middleHeader">LET'S DO THIS!
-            <form action="example.com/path" method="get">
+            <form action="example.com/path" method="get" id="relaxform" >
                 <lab>
                 <label for="first_name">*FIRST NAME</label>
-                <input type="text" id="first_name" name="first_name" required>
+                <input type="text" id="first_name" name="first_name" placeholder="ex. John" required>
+                <div id="first_name_warn" class="warn" ></div>
                 </lab>
 
                 <lab>
                 <label for="last_name">*LAST NAME</label>
-                <input type="text" id="last_name" name="last_name" required>
+                <input type="text" id="last_name" name="last_name" placeholder="ex. Smith" required>
+                <div id="last_name_warn" class="warn" ></div>
                 </lab>
 
                 <lab>
                 <label for="email">*EMAIL</label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" name="email" placeholder="ex. John.Smith@email.com" required>
+                <div id="email_warn" class="warn" ></div>
                 </lab>
 
                 <lab>
                 <label for="phone_number">*PHONE NUMBER</label>
-                <input type="number" id="phone_number" name="phone_number" required pattern='[0-9]{10}'>
+                <input type="number" id="phone_number" name="phone_number"  required pattern='[0-9]{10}'>
+                <div id="phone_number_warn" class="warn" ></div>
                 </lab>
 
                 <lab>
                 <label for="password">*PASSWORD</label>
                 <input type="password" id="password" name="password" required>
+                <div id="password_warn" class="warn" ></div>
                 </lab>
 
                 <lab>
                 <label for="confirm_password">*CONFIRM PASSWORD</label>
                 <input type="password" id="confirm_password" name="confirm_password" required>
+                <div id="confirm_password_warn" class="warn" ></div>
                 </lab>
                 
             </form>
@@ -56,7 +62,7 @@
 
         </div>
         <div class="buttonsec">
-            <button type="submit">CREATE ACCOUNT</button>
+            <button type="submit" form="relaxform">CREATE ACCOUNT</button>
             <div>ALREADY HAVE AN ACCOUNT? <a href="index.html">LOG IN</a></div>
             
         </div>
